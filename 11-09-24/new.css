@@ -1,0 +1,14 @@
+
+h2{
+    color: green;
+    background-color: black;
+}
+.container1{
+    background-image: url(./image/digital-art-inmersive-exhibition.jpg);
+    max-width: 100%; 
+    height: auto;
+
+}
+#paragraph{background-color: yellow;
+    
+}

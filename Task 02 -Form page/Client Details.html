@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Details</title>
+</head>
+<body>
+    <h1>Client Details</h1>
+    <h3>Enter the details of all incoming clients</h3>
+    <form action="submit">
+        <label for="clientname">Client Name<span style="color: red;">*</span></label>
+        <input type="text"><br>
+        <label for="company">Company<span style="color: red;">*</span></label>
+        <input type="text"><br>
+        <label>Title</label>
+        <input type="text"><br>
+        <label for="department">Department<span style="color: red;">*</span></label>
+        <select>
+            <option>--Select--</option>
+            <option>Editing</option>
+            <option>Designing</option>
+            <option>Devoloping</option>
+        </select><br>
+        <label for="preferredcontactmethord">Preferred Contact Methord<span style="color: red;">*</span></label>
+        <input type="radio" name="contactmethord" id="html">
+        <label for="html">Email</label>
+        <input type="radio" name="contactmethord" id="html">
+        <label for="html">Phone</label><br>
+        <label>Company address</label>
+        <input type="text" placeholder="Street address"><br>
+        <input type="text" placeholder="Address line 2"><br>
+        <input type="text" placeholder="City">
+        <input type="text" placeholder="State/Region/Province"><br>
+        <input type="text" placeholder="Postal/Zip Code">
+        <label for="country">Country:</label>
+            <select>
+                <option>--Select--</option>
+                <option>India</option>
+                <option>China</option>
+                <option>Switzerland</option>
+            </select><br>
+        <label for="companywebsite">Company Website<span style="color: red;">*</span></label>
+        <input type="text"><br>
+        <label for="companylogo">Company Logo<span style="color: red;">*</span></label>
+        <input type="file"><br>
+        <label for="workinghours">Working Hours<span style="color: red;">*</span></label>
+        <input type="text"><br>
+        <label for="workingdays">Working Days<span style="color: red;">*</span></label>
+        <input type="text"><br>
+        <label for="billingcycle">Billing Cycle<span style="color: red;">*</span></label>
+        <input type="date"><br>
+        <label for="additionalinformation">Additional Information</label>
+        <textarea rows="15" cols="50"></textarea><br>
+        <input type="checkbox">
+        <label for="terms&conditions">Terms & Conditions...</label><br>
+        <button type="submit" style="color: lightseagreen;">Submit</button>
+    </form>
+</body>
+</html>
