@@ -1,0 +1,57 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #65aded;
+    font-family: Arial, sans-serif;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    background-color: #955be7;
+    font-family: Arial, sans-serif;
+}
+
+.content1{
+  
+    height: 400px;
+    width: 300px;
+    background-color: #e5e2ea;
+    font-family: Arial, sans-serif;
+    color: #955be7;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(59, 34, 198);
+    color: rgb(245, 239, 239);
+    border: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+label{
+    color: rgb(18, 17, 17);
+
+}
+
+.login{
+    text-align: center;
+}
+
