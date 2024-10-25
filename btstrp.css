@@ -1,0 +1,21 @@
+.main{
+    height: 1000px;
+    background-color: rgb(236, 246, 227);
+}
+
+.navbar{
+  height: 80px;
+  gap: 700px;
+}
+.logo{
+    padding-left: 120px;
+}
+
+.cards{
+  gap: 50px;
+}
+
+.card{
+  width:200px ;
+  height: 200px;
+}

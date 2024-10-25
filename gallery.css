@@ -10,7 +10,7 @@ body {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-template-columns: repeat(3, 1fr); 
     gap: 15px;
     width: 80%;
     max-width: 1200px;
@@ -44,10 +44,16 @@ body {
     transform: scale(1.2); 
 }
 
-.gallery-item label {
+.gallery-item figcaption {
     margin-top: 10px;
     font-size: 1rem;
     color: #333;
+}
+
+@media (max-width: 900px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr); 
+    }
 }
 
 @media (max-width: 600px) {

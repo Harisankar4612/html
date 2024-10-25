@@ -1,0 +1,13 @@
+.newspaper {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 1px solid rgb(0, 0, 0); 
+    column-width: 100px; 
+    color: rgb(74, 99, 244);
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
